@@ -1,4 +1,6 @@
+
 <!doctype html>
+
 <html lang="en">
 
 <head>
@@ -10,11 +12,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css"  href="style.scss">
-
-  <title>Hello, world!</title>
+    <?php include ("connection.php"); ?>
+  <title>UIsle</title>
 </head>
 
+
 <body>
+  <h1>test</h1>
   <video id="player" controls autoplay></video>
   <button id="capture">Capture</button>
   <canvas id="canvas" width=320 height=240></canvas>
