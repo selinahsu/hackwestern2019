@@ -32,25 +32,64 @@ $conn = new mysqli($servername, $username, $password, $dbname);
  $ImagePath = "upload/$ImageName.jpg";
  
  $ServerURL = "hw2019/hackwestern2019/$ImagePath";
- error_log("20");
- $InsertSQL = "INSERT INTO imageupload (image_path,image_name) values('$ServerURL','$ImageName')";
- 
 
+ $InsertSQL = "INSERT INTO imageupload (image_path,image_name) values('$ServerURL','$ImageName')";
+ $delTable = "DELETE FROM imageupload";
+ 
+$q = mysqli_query($conn, $delTable);
  if(mysqli_query($conn, $InsertSQL)){
     //upload_object('hack-western-images','$ImageName', '$ServerURL');
- file_put_contents($ImagePath,base64_decode($ImageData));
+    file_put_contents($ImagePath,base64_decode($ImageData));
+    echo "Your Image Has Been Uploaded.";
 
- echo "Your Image Has Been Uploaded.";
+
+//  $url = 'https://vision.google.api.com/v1/images:annotate?key=AIzaSyDKAntBjo2AJRWjYtDcsowxvcsXkgLhFJ4';
+
+
+//  $params = array (base64_decode($ImageData));
+
+//  // Build Http query using params
+// $query = http_build_query ( $params);
+
+//  $contextData = array (
+//     'body' => json_encode('{"requests": [{"image": {"content": $ImageData }, "features": [ {"maxResults": 10,"type": "OBJECT_LOCALIZATION"}]}]}'),
+//     'method' => 'POST',
+//     'header' => "Connection: close\r\n".
+//                 "Content-Length: ".strlen($query)."\r\n",
+//     'content'=> $query ); 
+    
+//     // $context  = stream_context_create($options);
+//     // $result = file_get_contents($url, false, $context);
+//     // 
+
+    
+//     // Create Http context details
+    
+//     // Create context resource for our request
+//     $context = stream_context_create (array ( 'http' => $contextData ));
+//     // Read page rendered as result of your POST request
+//     $result =  file_get_contents (
+//                     $url,  // page url
+//                     false,
+//                     $context);
+//         if ($result === FALSE) { 
+
+
+//          }
+//         var_dump($result);
+//     // Server response is now stored in $result variable so you can process it
+
+ 
+ 
  
  }
  else{
-    error_log("32");
  }
  
  mysqli_close($conn);
  }else{
  echo "Please Try Again";
- error_log("38");
+
  }
 
 

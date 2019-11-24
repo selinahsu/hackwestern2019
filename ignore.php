@@ -14,8 +14,8 @@ $conn = new mysqli($HostName, $HostUser, $HostPass, $DatabaseName);
  $ImageName = $_POST['image_name'];
 
  $GetOldIdSQL ="SELECT id FROM ImageToServerTable ORDER BY id ASC";
- 
- $Query = mysqli_query($conn,$GetOldIdSQL);
+ error.log("17");
+ $query = mysqli_query($conn,$GetOldIdSQL);
  
  while($row = mysqli_fetch_array($Query)){
  
@@ -39,5 +39,6 @@ $conn = new mysqli($HostName, $HostUser, $HostPass, $DatabaseName);
  }else{
  echo "Not Uploaded";
  }
+
 
 ?>

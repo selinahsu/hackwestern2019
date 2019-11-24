@@ -1,0 +1,18 @@
+{
+  "requests":[
+    {
+      "image":{
+          "source":{
+              "imageUri":
+                "gs:///browser/hack-western-images"
+          }
+      },
+      "features":[
+        {
+          "type":" OBJECT_LOCALIZATION",
+          "maxResults":1
+        }
+      ]
+    }
+  ]
+}

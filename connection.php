@@ -21,7 +21,7 @@
           <img src="img/farmboy.png" alt="logo" class="responsive">
         </div>
         <div class="col-sm-7">
-            <h1 align="left" class="my-header"> uisle </h1>
+            <h1 align="left" class="my-header"> Aisle Vision </h1>
         </div>
         <div class="col-sm-2">
             <h6 align="center" class=bottom><b>Location:</b> London, ON</h6>
@@ -61,13 +61,13 @@
           <div id="carouselExampleControls" class="carousel slide my-carousel" data-interval="false" data-ride="carousel" >
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="img/store_img.jpg" class="d-block w-100" class="imgs" alt="...">
+                  <img src="upload/apple.jpg" class="d-block w-100 imgs" style=" max-height: 700px; background-size: contain;" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/store_img.jpg" class="img d-block w-100" class="imgs" alt="...">
+                  <img src="upload/health.jpg" class="img d-block w-100 imgs" style=" max-height: 700px; background-size: contain;" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/store_img.jpg" class="d-block w-100" class="imgs" alt="...">
+                  <img src="upload/peanutbutter.jpg" class="d-block w-100 imgs" style=" max-height: 700px; background-size: contain;" alt="...">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -100,7 +100,7 @@
     if (!$query){
         die('Error found'. mysqli_error($conn));
     }
-    
+
 
     echo "
     <table class = 'table'>
