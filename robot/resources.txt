@@ -1,0 +1,14 @@
+Useful Resources 
+
+General 
+https://howchoo.com/g/mjg5ytzmnjh/controlling-dc-motors-using-your-raspberry-pi
+https://www.instructables.com/id/Raspberry-PI-L298N-Dual-H-Bridge-DC-Motor/
+
+Set Static IP for Raspberry Pi
+https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-give-your-raspberry-pi-a-static-ip-address-update
+
+H Bridge 
+https://create.arduino.cc/projecthub/remnis/h-bridge-for-your-robot-025ae8
+
+Ultrasonic Sensor
+https://thepihut.com/blogs/raspberry-pi-tutorials/hc-sr04-ultrasonic-range-sensor-on-the-raspberry-pi

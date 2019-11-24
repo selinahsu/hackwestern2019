@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c8f353a-4be7-4c49-8349-54d9bc8d561a" name="Default Changelist" comment="" />
+    <list default="true" id="97800d49-b677-42b2-a170-a817bbb847ce" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +15,15 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1U0FyKCAnYohHnQHPBYOudO6SwW" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1U1iLx20KgtTskOjkiMThPwB30y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,16 +42,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1c8f353a-4be7-4c49-8349-54d9bc8d561a" name="Default Changelist" comment="" />
-      <created>1574485858872</created>
+      <changelist id="97800d49-b677-42b2-a170-a817bbb847ce" name="Default Changelist" comment="" />
+      <created>1574530449298</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574485858872</updated>
-      <workItem from="1574485902234" duration="4513000" />
+      <updated>1574530449298</updated>
+      <workItem from="1574530451281" duration="33000" />
+      <workItem from="1574530523643" duration="2487000" />
+      <workItem from="1574539289989" duration="6338000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
