@@ -1,5 +1,16 @@
 Useful Resources 
 
+SSH into the Pi
+ssh pi@192.168.137.233 -v
+
+Edit a file (in current directory): vim test.py
+Once in vim, hit "I" to edit normally
+Exit vim without saving: :qa!
+Save and exit vim: :wq
+
+Run a Python script (in current directory)
+python test.py
+
 General 
 https://howchoo.com/g/mjg5ytzmnjh/controlling-dc-motors-using-your-raspberry-pi
 https://www.instructables.com/id/Raspberry-PI-L298N-Dual-H-Bridge-DC-Motor/
@@ -7,8 +18,16 @@ https://www.instructables.com/id/Raspberry-PI-L298N-Dual-H-Bridge-DC-Motor/
 Set Static IP for Raspberry Pi
 https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-give-your-raspberry-pi-a-static-ip-address-update
 
+Changing file permissions on Pi
+https://www.dummies.com/computers/raspberry-pi/working-with-file-permissions-on-your-raspberry-pi/
+
+Run at startup (without ethernet connection)
+https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/
+
 H Bridge 
 https://create.arduino.cc/projecthub/remnis/h-bridge-for-your-robot-025ae8
+https://projects.raspberrypi.org/en/projects/build-a-buggy/2
 
 Ultrasonic Sensor
 https://thepihut.com/blogs/raspberry-pi-tutorials/hc-sr04-ultrasonic-range-sensor-on-the-raspberry-pi
+https://projects.raspberrypi.org/en/projects/physical-computing/13
